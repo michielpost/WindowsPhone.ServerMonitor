@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{2cb60efe-5489-4319-b169-682014447e94}" Title="Server Monitor" RuntimeType="Silverlight" Version="1.0.1.0" Genre="apps.normal" Author="M. Post" Description="Server Monitor" Publisher="M. Post">
+    <IconPath IsRelative="true" IsResource="false">logo_62.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_PHONEDIALER" />
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_MEDIALIB" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="NetworkMonitorToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">logo_173.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>Server Monitor</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>

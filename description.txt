@@ -1,0 +1,14 @@
+Server Monitor
+TRIAL YES
+Tools
+1.99
+
+Keywords:
+server, connection, website, monitoring
+
+
+Allows you to determine if all your servers are up and running.
+
+Does not support PUSH notifications.
+
+Free ad supported version.
